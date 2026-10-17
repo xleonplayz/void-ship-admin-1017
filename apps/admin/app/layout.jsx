@@ -1,1 +1,3 @@
-import './style.css';export const metadata={title:"Orchard \u00b7 Operations"};export default function Layout({children}){return <html lang="en"><body><nav>Orchard · Operations</nav><main>{children}</main></body></html>}
+import './style.css';
+export const metadata={title:"Orchard \u00b7 Operations"};
+export default function Layout({children}){return <html lang="en"><body><nav>Orchard · Operations</nav><main>{children}</main></body></html>}

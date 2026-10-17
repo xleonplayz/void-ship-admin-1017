@@ -1,1 +1,3 @@
-import {cookies} from 'next/headers';export async function POST(){cookies().set('ship_demo','member',{httpOnly:true,sameSite:'lax',secure:true,path:'/'});return Response.json({ok:true})}
+import {cookies} from 'next/headers';
+export async function POST(){cookies().set('ship_demo','member',{httpOnly:true,sameSite:'lax',secure:true,path:'/'});
+return Response.json({ok:true})}
