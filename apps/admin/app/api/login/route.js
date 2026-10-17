@@ -1,3 +1,3 @@
-import {cookies} from 'next/headers';
-export async function POST(){cookies().set('ship_demo','member',{httpOnly:true,sameSite:'lax',secure:true,path:'/'});
-return Response.json({ok:true})}
+export async function POST(){
+return Response.json({ok:true},{headers:{'set-cookie':'ship_demo=member; HttpOnly; SameSite=Lax; Secure; Path=/'}});
+}
